@@ -441,10 +441,11 @@ pre {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
-@media (min-width:576px) {
+
+/* @media (min-width:576px) {
     .container {
         max-width: 540px
     }
@@ -466,7 +467,7 @@ pre {
     .container {
         max-width: 1200px
     }
-}
+} */
 
 .container-fluid {
     width: 100%;
@@ -482,7 +483,7 @@ pre {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .contact_row {
@@ -8242,6 +8243,8 @@ img.mfp-img {
     content: "\e75a"
 }
 
+
+/* 
 .slick-slider {
     position: relative;
     display: block;
@@ -8272,33 +8275,39 @@ img.mfp-img {
 .slick-list.dragging {
     cursor: pointer;
     cursor: hand
-}
+} */
 
-.slick-slider .slick-track,
-.slick-slider .slick-list {
+
+/* .slick-slider .slick-track, */
+
+
+/* .slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
-}
+} */
 
-.slick-track {
+
+/* .slick-track {
     position: relative;
     top: 0;
     left: 0;
     display: block;
     margin-left: auto;
     margin-right: auto
-}
+} */
 
-.slick-track:before,
+
+/* .slick-track:before,
 .slick-track:after {
     display: table;
     content: ''
-}
+} */
 
-.slick-track:after {
+
+/* .slick-track:after {
     clear: both
 }
 
@@ -8345,7 +8354,7 @@ img.mfp-img {
 
 .slick-arrow.slick-hidden {
     display: none
-}
+} */
 
 .nice-select {
     -webkit-tap-highlight-color: transparent;
