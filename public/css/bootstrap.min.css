@@ -2089,15 +2089,6 @@ button.close {
     }
 }
 
-@media (min-width:992px) {
-    .d-lg-none {
-        display: none!important
-    }
-    .d-lg-block {
-        display: block!important
-    }
-}
-
 .flex-row {
     -ms-flex-direction: row!important;
     flex-direction: row!important
